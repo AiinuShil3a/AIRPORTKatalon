@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>li_This value is required</name>
+   <tag></tag>
+   <elementGuidId>8c43c956-ac90-495b-8973-9fcfa190efb7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>li.parsley-required</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//ul[@id='parsley-id-4']/li</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>li</value>
+      <webElementGuid>aead98ac-40ee-4713-8fa6-3305916eb393</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>parsley-required</value>
+      <webElementGuid>9af865a3-fd3c-46d0-922c-1d8bbcf4ea62</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>This value is required.</value>
+      <webElementGuid>da5bcfc4-a28f-4da3-818b-47775a6ac9ca</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;parsley-id-4&quot;)/li[@class=&quot;parsley-required&quot;]</value>
+      <webElementGuid>c820bb3b-b86e-4e0f-aec5-3f9cb87989bd</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//ul[@id='parsley-id-4']/li</value>
+      <webElementGuid>5cbfe907-8761-4a83-b39b-c9ca35fe1aac</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Login Credentials'])[1]/following::li[1]</value>
+      <webElementGuid>8fab38f3-0ec3-4faa-b076-ddad7e571da9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='This value is required.'])[2]/preceding::li[1]</value>
+      <webElementGuid>ead65076-87b4-4141-8887-2bcce7ff5cdc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='This value is required.']/parent::*</value>
+      <webElementGuid>7a599400-45ca-4e23-845f-4ee29995528b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//form[3]/div/div/ul/li</value>
+      <webElementGuid>61b19edf-7294-4fab-b09f-f91bccfe09bb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//li[(text() = 'This value is required.' or . = 'This value is required.')]</value>
+      <webElementGuid>52d0819b-6ac4-4c37-a819-1670383cb4a1</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

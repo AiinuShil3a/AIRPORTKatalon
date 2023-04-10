@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_Aisle                        Window _8b9e90</name>
+   <tag></tag>
+   <elementGuidId>89b13549-f8e8-43a3-bca7-1fd6abad38eb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#seat_pref</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@id='seat_pref']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>0b031c7e-5780-424c-99d3-46c6ae2602a7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control</value>
+      <webElementGuid>e4181984-bff6-4cbe-8f0e-878ace6c8e07</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-required</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>76654f71-c965-4bf0-8e02-6656a6b378fc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>seat_pref</value>
+      <webElementGuid>28519ed4-4e38-4f1e-9b22-beaeced0fdb0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>select seat preferences</value>
+      <webElementGuid>e680e70b-2f0b-44f2-ae75-116ec4906bb3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>  
+                        Aisle
+                        Window
+                        No preference
+                      </value>
+      <webElementGuid>9a00971c-b239-40d1-98fe-d320ca602740</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;seat_pref&quot;)</value>
+      <webElementGuid>c2f6d71f-f104-43dc-830c-bd18982f380e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@id='seat_pref']</value>
+      <webElementGuid>c2978f92-45b7-4b92-b073-b3d600f07240</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='rop-app']/div/div/div/div[2]/div/div/form/div/div/select</value>
+      <webElementGuid>3bb941c0-c2b2-4892-bd8c-0ca5356f4cb2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Inflight Preferences'])[1]/following::select[1]</value>
+      <webElementGuid>c8b5c73b-4a78-4b6d-afb2-3e0e75eaf0d6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Communication Preferences'])[1]/preceding::select[2]</value>
+      <webElementGuid>14e80ffe-3956-4724-aee1-439e773cf75f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//select</value>
+      <webElementGuid>e4b5a1b1-34da-43b7-95e7-b988be44f5f0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@id = 'seat_pref' and @title = 'select seat preferences' and (text() = '  
+                        Aisle
+                        Window
+                        No preference
+                      ' or . = '  
+                        Aisle
+                        Window
+                        No preference
+                      ')]</value>
+      <webElementGuid>c58cc359-2149-4690-baac-b67b44627cea</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
