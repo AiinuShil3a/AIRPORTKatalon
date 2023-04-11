@@ -150,8 +150,20 @@ WebUI.setText(findTestObject('Object Repository/OBJ AIRPORT/OBJ_RECORD/Page_Enro
 WebUI.setText(findTestObject('Object Repository/OBJ AIRPORT/OBJ_RECORD/Page_Enrolment  Royal Orchid Plus/input_Address_address3'), 
     'Thamaka')
 
+WebUI.scrollToElement(findTestObject('OBJ AIRPORT/REGISTER/Scroll input1'), 0)
+
+WebUI.click(findTestObject('OBJ AIRPORT/OBJ_RECORD/Page_Enrolment  Royal Orchid Plus/select_Please select cityPrachinburiAmnajch_4b05c9'))
+
+WebUI.verifyTextNotPresent('Kanchanaburi', false)
+
+WebUI.click(findTestObject('OBJ AIRPORT/OBJ_RECORD/Page_Enrolment  Royal Orchid Plus/select_Please select countryAfghanistanland_aacb6f'))
+
 WebUI.selectOptionByValue(findTestObject('Object Repository/OBJ AIRPORT/OBJ_RECORD/Page_Enrolment  Royal Orchid Plus/select_Please select countryAfghanistanland_aacb6f'), 
     'TH', true)
+
+WebUI.click(findTestObject('OBJ AIRPORT/OBJ_RECORD/Page_Enrolment  Royal Orchid Plus/select_Please select cityPrachinburiAmnajch_4b05c9'))
+
+WebUI.verifyTextPresent('Kanchanaburi', false)
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/OBJ AIRPORT/OBJ_RECORD/Page_Enrolment  Royal Orchid Plus/select_Please select cityPrachinburiAmnajch_4b05c9'), 
     'Kanchanaburi', true)
@@ -189,6 +201,9 @@ WebUI.verifyElementClickable(findTestObject('Object Repository/OBJ AIRPORT/OBJ_R
 WebUI.verifyElementClickable(findTestObject('Object Repository/OBJ AIRPORT/OBJ_RECORD/Page_Enrolment  Royal Orchid Plus/input_I agree to receive News, and promotio_6d6b5d_1'), 
     FailureHandling.STOP_ON_FAILURE)
 
+WebUI.scrollToElement(findTestObject('OBJ AIRPORT/OBJ_RECORD/Page_Enrolment  Royal Orchid Plus/input_I agree to receive News, and promotio_6d6b5d_1'), 
+    0)
+
 WebUI.selectOptionByValue(findTestObject('Object Repository/OBJ AIRPORT/OBJ_RECORD/Page_Enrolment  Royal Orchid Plus/select_--select--                          _bfbc23'), 
     'C', true)
 
@@ -223,6 +238,8 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/OBJ AIRPORT/OBJ_RECO
 WebUI.selectOptionByValue(findTestObject('Object Repository/OBJ AIRPORT/OBJ_RECORD/Page_Enrolment  Royal Orchid Plus/select_English                        Thai'), 
     'T', true)
 
+WebUI.scrollToElement(findTestObject('OBJ AIRPORT/OBJ_RECORD/Page_Enrolment  Royal Orchid Plus/input_PIN_pin'), 0)
+
 WebUI.setText(findTestObject('Object Repository/OBJ AIRPORT/OBJ_RECORD/Page_Enrolment  Royal Orchid Plus/input_PIN_pin'), 
     'test1234')
 
@@ -243,6 +260,20 @@ WebUI.click(findTestObject('OBJ AIRPORT/REGISTER/Next-4'))
 WebUI.verifyTextPresent('4. ตรวจสอบ', false)
 
 WebUI.verifyTextNotPresent('4. ตรวจโรคติดต่อ', false)
+
+WebUI.verifyTextPresent('ข้อมูลส่วนตัว', false)
+
+WebUI.verifyTextPresent('รายละเอียดการล็อคอิน', false)
+
+WebUI.verifyTextPresent('ข้อมูลติดต่อ', false)
+
+WebUI.verifyTextPresent('ข้อมูลอีเมล', false)
+
+WebUI.verifyTextPresent('หมายเลขโทรศัพท์และโทรสาร', false)
+
+WebUI.verifyTextPresent('ความประสงค์ของท่านกับบริการบนเครื่อง', false)
+
+WebUI.verifyTextPresent('ความประสงค์ในการรับข้อมูลข่าวสาร', false)
 
 WebUI.takeScreenshot()
 
